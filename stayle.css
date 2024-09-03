@@ -1,2 +1,9 @@
 header {
+    background-color: rgb(255, 0, 0);
+    color: #ff8721;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
     
+}
