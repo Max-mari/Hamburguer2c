@@ -7,6 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
+    font-size: 18px; /* Tamanho de fonte maior */
 }
 
 .cabecalho {
@@ -19,7 +20,7 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 20px; /* Ajuste conforme necessário */
+    width: 50px; /* Imagens menores */
     height: auto;
 }
 
@@ -30,30 +31,30 @@ body {
 
 .cabecalho-lista-item {
     margin: 0 16px;
-    font-size: 16px;
+    font-size: 20px; /* Texto maior */
 }
 
 .hamburgueria {
     background-image: linear-gradient(#424E61, #16CFF8);
     color: white;
     text-align: center;
-    padding: 80px 40px;
+    padding: 40px 20px;
 }
 
 .hamburgueria-titulo {
-    font-size: 60px;
-    margin-bottom: 60px;
+    font-size: 28px; /* Título maior */
+    margin-bottom: 20px;
 }
 
 .hamburgueria-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .hamburguer-imagem {
-    width: 300px; /* Tamanho da imagem dos hambúrgueres */
+    width: 150px; /* Imagens de hambúrguer menores */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -67,7 +68,7 @@ body {
 .hamburguer-nome {
     text-align: center;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 22px; /* Nome dos hambúrgueres maior */
     color: #333;
 }
 
@@ -78,9 +79,14 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .rodape-imagem {
-    height: 80px;
+    height: 60px;
+}
+
+.primeira-imagem {
+    border: 3px solid #FFD700; /* Destaque para a primeira imagem */
+    border-radius: 50%; /* Faz a primeira imagem ser circular */
 }
