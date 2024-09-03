@@ -7,11 +7,11 @@ header {
 }
 
 .cabecalho-imgem{ 
-    width: 80;
+    width: 80%;
 }
 .cabecalho-listem-item{
     display: inline-block;
-   margin: 0 10p;
+   margin: 0 10px;
 }
 
 .hamburgueria{
@@ -19,5 +19,5 @@ header {
 }
 
 .hamburgueria-imagem{
-    width: 25;
+    width: 25%;
 }
