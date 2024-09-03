@@ -12,13 +12,17 @@ header {
 }
 
 .cabecalho-imgem{ 
-    width: 80%;
+    width: 80;
 }
 .cabecalho-listem-item{
     display: inline-block;
-   margin: 0 10px;
+   margin: 0 10p;
 }
 
 .hamburgueria{
     background-image: linear-gradient(#fcff5c,rgba(255, 180, 82, 0.486));
+}
+
+.hamburgueria-imagem{
+    width: 25;
 }
