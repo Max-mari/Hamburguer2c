@@ -1,6 +1,6 @@
-*{
-    margin: 10;
-    padding: 10;
+* {
+    margin: 10px;
+    padding: 10px;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -14,53 +14,41 @@ body {
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
-    width: 10%;
+.cabecalho-imagem {
+    width: 25%;
+    padding: 24px 0;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     font-size: 16px;
 }
 
-.cabecalho-imagem{
-    width: 25%;
-}
-
-.hamburgueria{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
+.hamburgueria {
+    background-image: linear-gradient(#424E61, #16CFF8);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.cabecalho-div-conteudo{
+.cabecalho-div-conteudo {
     width: 35%;
 }
 
-
-.HAMBURGUERIA-titulo{
-    padding: 24px 0;
-}
-
-.cabecalho-imagem{
-    padding: 24px 0;
-}
-
-.hamburguer-titulo{
+.hamburguer-titulo {
     text-align: center;
     padding: 50px 0;
 }
 
-.cabecalho-todos{
+.cabecalho-todos {
     display: flex;
     justify-content: center;
 }
 
-.rodape{
+.rodape {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +56,7 @@ body {
     text-align: center;
 }
 
-.rodape-imagem{
+.rodape-imagem {
     height: 60px;
     padding: 12px 0;
 }
