@@ -37,23 +37,23 @@ body {
     background-image: linear-gradient(#424E61, #16CFF8);
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 80px 40px;
 }
 
 .hamburgueria-titulo {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 60px;
 }
 
 .hamburgueria-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .hamburguer-imagem {
-    width: 20px; /* Tamanho da imagem dos hambúrgueres */
+    width: 300px; /* Tamanho da imagem dos hambúrgueres */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -78,9 +78,9 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .rodape-imagem {
-    height: 20px;
+    height: 80px;
 }
