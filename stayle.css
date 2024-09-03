@@ -5,6 +5,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 30px;
-    
-
+}
+.cabecalho-imagem{
+    width: 20%;
 }
