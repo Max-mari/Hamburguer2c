@@ -9,3 +9,7 @@ header {
 .cabecalho-imgem{ 
     width: 100%;
 }
+.cabecalho-listem-item{
+    display: inline-block;
+   margin: 0 24px;
+}
