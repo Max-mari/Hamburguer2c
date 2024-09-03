@@ -1,23 +1,2 @@
 header {
-    background-color: #fcff5c;
-    color: rgba(255, 180, 82, 0.486);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.cabecalho-imgem{ 
-    width: 80%;
-}
-.cabecalho-listem-item{
-    display: inline-block;
-   margin: 0 10px;
-}
-
-.hamburgueria{
-    background-image: linear-gradient(#fcff5c,rgba(255, 180, 82, 0.486));
-}
-
-.hamburgueria-imagem{
-    width: 25%;
-}
+    
