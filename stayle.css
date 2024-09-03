@@ -1,8 +1,84 @@
-header {
-    background-color: rgb(255, 0, 0);
-    color: #ff8721;
+*{
+    margin: 10;
+    padding: 10;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
 
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-imagem{
+    width: 25%;
+}
+
+.hamburgueria{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-div-conteudo{
+    width: 35%;
+}
+
+
+.HAMBURGUERIA-titulo{
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    padding: 24px 0;
+}
+
+.hamburguer-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cabecalho-todos{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+.whatsapp-icone {
+    margin-left: 50px;
+    height: 30px;
+}
+
+.celular {
+    margin-left: 10px;
+    color: white;
+}
