@@ -15,8 +15,8 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 25%;
-    padding: 24px 0;
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 .cabecalho-lista-item {
@@ -48,12 +48,20 @@ body {
     justify-content: center;
 }
 
+.hamburguer-imagem {
+    width: 200px; /* Define a largura fixa para as imagens dos hambúrgueres */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
 .rodape {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     text-align: center;
+    padding: 24px 0;
 }
 
 .rodape-imagem {
