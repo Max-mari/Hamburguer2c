@@ -19,7 +19,7 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 80px; /* Ajuste conforme necessário */
+    width: 20px; /* Ajuste conforme necessário */
     height: auto;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .hamburguer-imagem {
-    width: 200px; /* Tamanho da imagem dos hambúrgueres */
+    width: 20px; /* Tamanho da imagem dos hambúrgueres */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -82,5 +82,5 @@ body {
 }
 
 .rodape-imagem {
-    height: 60px;
+    height: 20px;
 }
