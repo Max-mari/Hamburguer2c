@@ -1,26 +1,34 @@
 * {
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
 }
+
 .cabecalho {
     background-color: #424E61;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 20px;
 }
 
 .cabecalho-imagem {
-    width: 100px; /* Ajuste conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 80px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.cabecalho-lista {
+    display: flex;
+    list-style: none;
 }
 
 .cabecalho-lista-item {
-    display: inline-block;
     margin: 0 16px;
     font-size: 16px;
 }
@@ -28,31 +36,39 @@ body {
 .hamburgueria {
     background-image: linear-gradient(#424E61, #16CFF8);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.cabecalho-div-conteudo {
-    width: 35%;
-}
-
-.hamburguer-titulo {
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 20px;
 }
 
-.cabecalho-todos {
+.hamburgueria-titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hamburgueria-div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .hamburguer-imagem {
-    width: 200px; /* Define a largura fixa para as imagens dos hambúrgueres */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 200px; /* Tamanho da imagem dos hambúrgueres */
+    height: auto;
     display: block;
-    margin: 0 auto; /* Centraliza a imagem */
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburguer-imagem:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.hamburguer-nome {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
 }
 
 .rodape {
@@ -60,21 +76,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
+    color: white;
     text-align: center;
-    padding: 24px 0;
+    padding: 20px;
 }
 
 .rodape-imagem {
     height: 60px;
-    padding: 12px 0;
-}
-
-.whatsapp-icone {
-    margin-left: 50px;
-    height: 30px;
-}
-
-.celular {
-    margin-left: 10px;
-    color: white;
 }
