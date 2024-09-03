@@ -2,6 +2,7 @@ header {
     background-color: #fcff5c;
     color: rgba(255, 180, 82, 0.486);
     display: flex;
+    justify-content: space-around;
 }
 
 .cabecalho-imgem{ 
