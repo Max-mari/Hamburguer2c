@@ -3,9 +3,9 @@ header {
     color: rgba(255, 180, 82, 0.486);
     display: flex;
     justify-content: space-around;
+    table-layout: auto;
 }
 
 .cabecalho-imgem{ 
     width: 80%;
-
 }
